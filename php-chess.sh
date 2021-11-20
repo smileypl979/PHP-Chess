@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# this is a comment
 if [[ $1 == "deploy" ]]; then
   read -p "Enter your User ID: " YOUR_USER_ID
   read -sp "Enter a deployment password: " DEPLOY_PASS
